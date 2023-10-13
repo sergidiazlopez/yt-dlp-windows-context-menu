@@ -1,1 +1,1 @@
-winget install yt-dlp
+winget install yt-dlp --source winget
