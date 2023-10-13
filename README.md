@@ -3,6 +3,8 @@ Adds buttons to the right click menu in Windows Explorer to download videos usin
 
 ![](screenshot.png)
 
+[**Download here**](https://github.com/sergidiazlopez/yt-dlp-windows-context-menu/archive/refs/heads/master.zip)
+
 ## Install yt-dlp
 The easiest way to install yt-dlp is using winget. It comes with latest Windows 10 and Windows 11. Double-click the `install-yt-dlp.bat` file.
 
