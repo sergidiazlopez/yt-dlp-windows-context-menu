@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\yt-dlp]
+@="Download with yt-dlp (video and audio)"
+"Icon"="%SystemRoot%\\System32\\wmploc.dll,14"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\yt-dlp\command]
+@="powershell.exe -Command yt-dlp $(Get-Clipboard)"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\yt-dlp-audio]
+@="Download with yt-dlp (audio only)"
+"Icon"="%SystemRoot%\\System32\\wmploc.dll,24"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\yt-dlp-audio\command]
+@="powershell.exe -Command yt-dlp -f bestaudio --extract-audio $(Get-Clipboard)"
