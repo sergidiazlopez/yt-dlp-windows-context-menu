@@ -18,8 +18,8 @@ The easiest way to install yt-dlp is using winget. It comes with latest Windows 
 
 If this does not work check [other methods](https://github.com/yt-dlp/yt-dlp/wiki/Installation#Windows).
 
-### Install context menu
-Run `install.reg` to install.
+### Update yt-dlp
+If the video download doesn't work you can update yt-dlp by opening the SHIFT + Right Click menu and clicking "Update yt-dlp to the latest version"
 
 ### Uninstall
 Run `uninstall.reg` to uninstall the context menu. This will not remove yt-dlp.

@@ -13,3 +13,11 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\yt-dlp-audio\command]
 @="powershell.exe -Command yt-dlp -f bestaudio --extract-audio $(Get-Clipboard)"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\yt-dlp-update]
+@="Update yt-dlp to latest version"
+"Icon"="%SystemRoot%\\System32\\imageres.dll,152"
+"Extended"=""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\yt-dlp-update\command]
+@="powershell.exe -Command yt-dlp -U"
