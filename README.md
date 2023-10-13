@@ -3,7 +3,7 @@ Adds buttons to the right click menu in Windows Explorer to download videos usin
 
 Simply copy a link and click the download button.
 
-![](screenshot.png)
+![Right-click menu screenshot](screenshot.png)
 
 [**Download here**](https://github.com/sergidiazlopez/yt-dlp-windows-context-menu/archive/refs/heads/master.zip)
 
@@ -20,6 +20,8 @@ If this does not work check [other methods](https://github.com/yt-dlp/yt-dlp/wik
 
 ### Update yt-dlp
 If the video download doesn't work you can update yt-dlp by opening the SHIFT + Right Click menu and clicking "Update yt-dlp to the latest version"
+
+![Update entry in right click menu](screenshot2.png)
 
 ### Uninstall
 Run `uninstall.reg` to uninstall the context menu. This will not remove yt-dlp.
