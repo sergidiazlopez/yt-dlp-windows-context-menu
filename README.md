@@ -11,6 +11,7 @@ Simply copy a link and click the download button.
 1. [Download and extract](https://github.com/sergidiazlopez/yt-dlp-windows-context-menu/archive/refs/heads/master.zip)
 2. Double-click `install-yt-dlp.bat`
 3. Double-click `install.reg`
+4. Restart your computer
 
 ## Detailed instructions
 ### Install yt-dlp
